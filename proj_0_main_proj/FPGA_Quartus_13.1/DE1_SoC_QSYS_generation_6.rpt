@@ -1,0 +1,222 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/ --output-directory=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/ --report-file=bsf:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.bsf --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.qsys
+Progress: Loading FPGA/DE1_SoC_QSYS.qsys
+Progress: Reading input file
+Progress: Adding alt_vip_cpr_1 [alt_vip_cpr 13.1]
+Progress: Parameterizing module alt_vip_cpr_1
+Progress: Adding alt_vip_itc_0 [alt_vip_itc 13.1]
+Progress: Parameterizing module alt_vip_itc_0
+Progress: Adding alt_vip_vfr_0 [alt_vip_vfr 13.1]
+Progress: Parameterizing module alt_vip_vfr_0
+Progress: Adding clk_50 [clock_source 13.1]
+Progress: Parameterizing module clk_50
+Progress: Adding hps_0 [altera_hps 13.1]
+Progress: Parameterizing module hps_0
+Progress: Adding pll_sys [altera_pll 13.1]
+Progress: Parameterizing module pll_sys
+Progress: Adding rdadd [altera_avalon_pio 13.1]
+Progress: Parameterizing module rdadd
+Progress: Adding rddat [altera_avalon_pio 13.1]
+Progress: Parameterizing module rddat
+Progress: Adding rdflg [altera_avalon_pio 13.1]
+Progress: Parameterizing module rdflg
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: DE1_SoC_QSYS.alt_vip_vfr_0: The module properties SIMULATION_MODEL_IN_VERILOG and SIMULATION_MODEL_IN_VHDL can not both be set when using the SIMULATION file property: src_hdl/alt_vipvfr131_vfr.v, src_hdl/alt_vipvfr131_vfr_controller.v, src_hdl/alt_vipvfr131_vfr_control_packet_encoder.v, src_hdl/alt_vipvfr131_prc.v, src_hdl/alt_vipvfr131_prc_core.v, src_hdl/alt_vipvfr131_prc_read_master.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_package.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_bursting_master_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_master.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_unpack_data.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_slave.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_stream_output.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_pulling_width_adapter.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_general_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_fifo_usedw_calculator.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_gray_clock_crosser.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_std_logic_vector_delay.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_one_bit_delay.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_logic_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_ram_fifo.vhd
+Info: DE1_SoC_QSYS.pll_sys: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: DE1_SoC_QSYS.pll_sys: Able to implement PLL with user settings
+Info: DE1_SoC_QSYS.rddat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: DE1_SoC_QSYS.alt_vip_vfr_0: Interrupt sender alt_vip_vfr_0.interrupt_sender is not connected to an interrupt receiver
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/ --output-directory=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/ --file-set=QUARTUS_SYNTH --report-file=html:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.html --report-file=sopcinfo:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.sopcinfo --report-file=cmp:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.cmp --report-file=qip:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.qip --report-file=svd --report-file=regmap:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.regmap --report-file=debuginfo:D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/DE1_SoC_QSYS.debuginfo --system-info=DEVICE_FAMILY="Cyclone V" --system-info=DEVICE=5CSEMA5F31C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS.qsys --language=VERILOG
+Progress: Loading FPGA/DE1_SoC_QSYS.qsys
+Progress: Reading input file
+Progress: Adding alt_vip_cpr_1 [alt_vip_cpr 13.1]
+Progress: Parameterizing module alt_vip_cpr_1
+Progress: Adding alt_vip_itc_0 [alt_vip_itc 13.1]
+Progress: Parameterizing module alt_vip_itc_0
+Progress: Adding alt_vip_vfr_0 [alt_vip_vfr 13.1]
+Progress: Parameterizing module alt_vip_vfr_0
+Progress: Adding clk_50 [clock_source 13.1]
+Progress: Parameterizing module clk_50
+Progress: Adding hps_0 [altera_hps 13.1]
+Progress: Parameterizing module hps_0
+Progress: Adding pll_sys [altera_pll 13.1]
+Progress: Parameterizing module pll_sys
+Progress: Adding rdadd [altera_avalon_pio 13.1]
+Progress: Parameterizing module rdadd
+Progress: Adding rddat [altera_avalon_pio 13.1]
+Progress: Parameterizing module rddat
+Progress: Adding rdflg [altera_avalon_pio 13.1]
+Progress: Parameterizing module rdflg
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: DE1_SoC_QSYS.alt_vip_vfr_0: The module properties SIMULATION_MODEL_IN_VERILOG and SIMULATION_MODEL_IN_VHDL can not both be set when using the SIMULATION file property: src_hdl/alt_vipvfr131_vfr.v, src_hdl/alt_vipvfr131_vfr_controller.v, src_hdl/alt_vipvfr131_vfr_control_packet_encoder.v, src_hdl/alt_vipvfr131_prc.v, src_hdl/alt_vipvfr131_prc_core.v, src_hdl/alt_vipvfr131_prc_read_master.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_package.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_bursting_master_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_master.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_unpack_data.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_avalon_mm_slave.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_stream_output.v, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_pulling_width_adapter.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_general_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_fifo_usedw_calculator.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_gray_clock_crosser.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_std_logic_vector_delay.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_one_bit_delay.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_logic_fifo.vhd, F:/altera/13.1/ip/altera/frame_reader/common_hdl/alt_vipvfr131_common_ram_fifo.vhd
+Info: DE1_SoC_QSYS.pll_sys: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: DE1_SoC_QSYS.pll_sys: Able to implement PLL with user settings
+Info: DE1_SoC_QSYS.rddat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: DE1_SoC_QSYS.alt_vip_vfr_0: Interrupt sender alt_vip_vfr_0.interrupt_sender is not connected to an interrupt receiver
+Info: DE1_SoC_QSYS: Generating DE1_SoC_QSYS "DE1_SoC_QSYS" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 9 modules, 26 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 4 modules, 4 connections
+Info: merlin_translator_transform: After transform: 5 modules, 7 connections
+Info: merlin_domain_transform: After transform: 8 modules, 24 connections
+Info: merlin_router_transform: After transform: 11 modules, 33 connections
+Info: merlin_traffic_limiter_transform: After transform: 12 modules, 37 connections
+Info: merlin_burst_transform: After transform: 14 modules, 43 connections
+Info: merlin_network_to_switch_transform: After transform: 19 modules, 53 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src0 and cmd_xbar_mux.sink0
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src1 and cmd_xbar_mux_001.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux.src0 and rsp_xbar_mux.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_001.src0 and rsp_xbar_mux.sink1
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 23 modules, 73 connections
+Info: merlin_pipeline_transform: After transform: 29 modules, 91 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 33 modules, 125 connections
+Info: merlin_hierarchy_transform: After transform: 10 modules, 31 connections
+Info: merlin_initial_interconnect_transform: After transform: 7 modules, 13 connections
+Info: merlin_translator_transform: After transform: 11 modules, 25 connections
+Info: merlin_domain_transform: After transform: 25 modules, 92 connections
+Info: merlin_router_transform: After transform: 31 modules, 110 connections
+Info: merlin_traffic_limiter_transform: After transform: 33 modules, 118 connections
+Info: merlin_burst_transform: After transform: 37 modules, 130 connections
+Info: merlin_network_to_switch_transform: After transform: 48 modules, 158 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src0 and cmd_xbar_mux.sink0
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src1 and cmd_xbar_mux_001.sink0
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src2 and cmd_xbar_mux_002.sink0
+Info: Inserting clock-crossing logic between cmd_xbar_demux.src3 and cmd_xbar_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src0 and cmd_xbar_mux.sink1
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src1 and cmd_xbar_mux_001.sink1
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src2 and cmd_xbar_mux_002.sink1
+Info: Inserting clock-crossing logic between cmd_xbar_demux_001.src3 and cmd_xbar_mux_003.sink1
+Info: Inserting clock-crossing logic between rsp_xbar_demux.src0 and rsp_xbar_mux.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux.src1 and rsp_xbar_mux_001.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_001.src0 and rsp_xbar_mux.sink1
+Info: Inserting clock-crossing logic between rsp_xbar_demux_001.src1 and rsp_xbar_mux_001.sink1
+Info: Inserting clock-crossing logic between rsp_xbar_demux_002.src0 and rsp_xbar_mux.sink2
+Info: Inserting clock-crossing logic between rsp_xbar_demux_002.src1 and rsp_xbar_mux_001.sink2
+Info: Inserting clock-crossing logic between rsp_xbar_demux_003.src0 and rsp_xbar_mux.sink3
+Info: Inserting clock-crossing logic between rsp_xbar_demux_003.src1 and rsp_xbar_mux_001.sink3
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 64 modules, 238 connections
+Info: merlin_pipeline_transform: After transform: 76 modules, 274 connections
+Info: merlin_clock_and_reset_bridge_transform: After transform: 82 modules, 369 connections
+Info: merlin_hierarchy_transform: After transform: 11 modules, 38 connections
+Info: merlin_mm_transform: After transform: 11 modules, 38 connections
+Warning: hps_0.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: hps_0.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: hps_0.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: hps_0.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: merlin_interrupt_mapper_transform: After transform: 13 modules, 40 connections
+Info: reset_adaptation_transform: After transform: 17 modules, 48 connections
+Info: alt_vip_cpr_1: "DE1_SoC_QSYS" instantiated alt_vip_cpr "alt_vip_cpr_1"
+Info: alt_vip_itc_0: "DE1_SoC_QSYS" instantiated alt_vip_itc "alt_vip_itc_0"
+Info: alt_vip_vfr_0: "DE1_SoC_QSYS" instantiated alt_vip_vfr "alt_vip_vfr_0"
+Info: hps_0: "Doing Pretransform for module: hps_0"
+Info: pipeline_bridge_swap_transform: After transform: 2 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: hps_0: "DE1_SoC_QSYS" instantiated altera_hps "hps_0"
+Info: pll_sys: "DE1_SoC_QSYS" instantiated altera_pll "pll_sys"
+Info: rdadd: Starting RTL generation for module 'DE1_SoC_QSYS_rdadd'
+Info: rdadd:   Generation command is [exec F:/altera/13.1/quartus/bin/perl/bin/perl.exe -I F:/altera/13.1/quartus/bin/perl/lib -I F:/altera/13.1/quartus/sopc_builder/bin/europa -I F:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I F:/altera/13.1/quartus/sopc_builder/bin -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=DE1_SoC_QSYS_rdadd --dir=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0006_rdadd_gen/ --quartus_dir=F:/altera/13.1/quartus --verilog --config=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0006_rdadd_gen//DE1_SoC_QSYS_rdadd_component_configuration.pl  --do_build_sim=0  ]
+Info: rdadd: Done RTL generation for module 'DE1_SoC_QSYS_rdadd'
+Info: rdadd: "DE1_SoC_QSYS" instantiated altera_avalon_pio "rdadd"
+Info: rddat: Starting RTL generation for module 'DE1_SoC_QSYS_rddat'
+Info: rddat:   Generation command is [exec F:/altera/13.1/quartus/bin/perl/bin/perl.exe -I F:/altera/13.1/quartus/bin/perl/lib -I F:/altera/13.1/quartus/sopc_builder/bin/europa -I F:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I F:/altera/13.1/quartus/sopc_builder/bin -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=DE1_SoC_QSYS_rddat --dir=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0007_rddat_gen/ --quartus_dir=F:/altera/13.1/quartus --verilog --config=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0007_rddat_gen//DE1_SoC_QSYS_rddat_component_configuration.pl  --do_build_sim=0  ]
+Info: rddat: Done RTL generation for module 'DE1_SoC_QSYS_rddat'
+Info: rddat: "DE1_SoC_QSYS" instantiated altera_avalon_pio "rddat"
+Info: rdflg: Starting RTL generation for module 'DE1_SoC_QSYS_rdflg'
+Info: rdflg:   Generation command is [exec F:/altera/13.1/quartus/bin/perl/bin/perl.exe -I F:/altera/13.1/quartus/bin/perl/lib -I F:/altera/13.1/quartus/sopc_builder/bin/europa -I F:/altera/13.1/quartus/sopc_builder/bin/perl_lib -I F:/altera/13.1/quartus/sopc_builder/bin -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/common -I F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/altera/13.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=DE1_SoC_QSYS_rdflg --dir=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0008_rdflg_gen/ --quartus_dir=F:/altera/13.1/quartus --verilog --config=C:/Users/LUOYUS~1/AppData/Local/Temp/alt7050_8517830543121146973.dir/0008_rdflg_gen//DE1_SoC_QSYS_rdflg_component_configuration.pl  --do_build_sim=0  ]
+Info: rdflg: Done RTL generation for module 'DE1_SoC_QSYS_rdflg'
+Info: rdflg: "DE1_SoC_QSYS" instantiated altera_avalon_pio "rdflg"
+Info: pipeline_bridge_swap_transform: After transform: 29 modules, 88 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 29 modules, 88 connections
+Info: mm_interconnect_0: "DE1_SoC_QSYS" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_0"
+Info: pipeline_bridge_swap_transform: After transform: 75 modules, 263 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 75 modules, 263 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 75 modules, 263 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 75 modules, 263 connections
+Info: merlin_initial_interconnect_transform: After transform: 0 modules, 0 connections
+Info: No Avalon connections, skipping transform 
+Info: merlin_hierarchy_transform: After transform: 75 modules, 263 connections
+Info: mm_interconnect_1: "DE1_SoC_QSYS" instantiated altera_merlin_interconnect_wrapper "mm_interconnect_1"
+Info: irq_mapper: "DE1_SoC_QSYS" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "DE1_SoC_QSYS" instantiated altera_reset_controller "rst_controller"
+Info: din0: "alt_vip_cpr_1" instantiated alt_avalon_st_input "din0"
+Info: dout0_takeb_muxinst: "alt_vip_cpr_1" instantiated alt_cusp_muxbin2 "dout0_takeb_muxinst"
+Info: dout0_wdata_muxinst: "alt_vip_cpr_1" instantiated alt_cusp_muxfast8 "dout0_wdata_muxinst"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: dout0_eop_muxinst: "alt_vip_cpr_1" instantiated alt_cusp_muxhot16 "dout0_eop_muxinst"
+Info: dout0: "alt_vip_cpr_1" instantiated alt_avalon_st_output "dout0"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: din0_non_img_buffer_regs: "alt_vip_cpr_1" instantiated alt_reg "din0_non_img_buffer_regs"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: pc: "alt_vip_cpr_1" instantiated alt_pc "pc"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: ctrl_cnt_id_1008_line246: "alt_vip_cpr_1" instantiated alt_au "ctrl_cnt_id_1008_line246"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: fu_id_1314_line234_28: "alt_vip_cpr_1" instantiated alt_cmp "fu_id_1314_line234_28"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: clocksource: "alt_vip_cpr_1" instantiated alt_cusp_testbench_clock "clocksource"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/alt_cusp131_package.vhd
+Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: hps_io: "hps_0" instantiated altera_hps_io "hps_io"
+Info: alt_vip_vfr_0_avalon_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "alt_vip_vfr_0_avalon_master_translator"
+Info: alt_vip_vfr_0_avalon_master_translator_avalon_universal_master_0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "alt_vip_vfr_0_avalon_master_translator_avalon_universal_master_0_agent"
+Info: hps_0_f2h_axi_slave_agent: "mm_interconnect_0" instantiated altera_merlin_axi_slave_ni "hps_0_f2h_axi_slave_agent"
+Info: addr_router: "mm_interconnect_0" instantiated altera_merlin_router "addr_router"
+Info: id_router: "mm_interconnect_0" instantiated altera_merlin_router "id_router"
+Info: limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "limiter"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: cmd_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: limiter_pipeline: "mm_interconnect_0" instantiated altera_avalon_st_pipeline_stage "limiter_pipeline"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: alt_vip_vfr_0_avalon_slave_translator: "mm_interconnect_1" instantiated altera_merlin_slave_translator "alt_vip_vfr_0_avalon_slave_translator"
+Info: hps_0_h2f_lw_axi_master_agent: "mm_interconnect_1" instantiated altera_merlin_axi_master_ni "hps_0_h2f_lw_axi_master_agent"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: alt_vip_vfr_0_avalon_slave_translator_avalon_universal_slave_0_agent: "mm_interconnect_1" instantiated altera_merlin_slave_agent "alt_vip_vfr_0_avalon_slave_translator_avalon_universal_slave_0_agent"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: alt_vip_vfr_0_avalon_slave_translator_avalon_universal_slave_0_agent_rsp_fifo: "mm_interconnect_1" instantiated altera_avalon_sc_fifo "alt_vip_vfr_0_avalon_slave_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: addr_router: "mm_interconnect_1" instantiated altera_merlin_router "addr_router"
+Info: id_router: "mm_interconnect_1" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "mm_interconnect_1" instantiated altera_merlin_router "id_router_001"
+Info: cmd_xbar_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_001: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_xbar_mux_001"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_001: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_001"
+Info: rsp_xbar_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/soc_proj/proj_0_main_proj_data_buffer/FPGA/DE1_SoC_QSYS/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: DE1_SoC_QSYS: Done "DE1_SoC_QSYS" with 52 modules, 142 files, 3207379 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

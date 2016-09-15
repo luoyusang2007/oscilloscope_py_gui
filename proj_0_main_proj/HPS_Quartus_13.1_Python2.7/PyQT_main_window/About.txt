@@ -1,0 +1,11 @@
+Author: Luo Yusang
+
+    == Nanchang University ==   
+
+Sept. 2016
+
+File Description:
+soc_gui.ui:				QT UI File, can be opened with QT Creator or QT Designer
+Generate_UI_Py.bat:		The Windows shell file to convert .ui file to .py file
+main.py:				Main Python program
+soc_gui.py:				Converted UI, Python file

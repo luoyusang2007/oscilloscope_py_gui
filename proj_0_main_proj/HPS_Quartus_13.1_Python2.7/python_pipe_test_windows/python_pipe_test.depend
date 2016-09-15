@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1472358834 source:c:\users\luoyusang\codeblocks\python_pipe_test\main.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+
+1472180575 source:c:\users\luoyusang\codeblocks\python_pipe_test\main.cpp
+	"iostream"
+	<stdio.h>
+
+1472796237 source:d:\soc_proj\hps\python_pipe_test\main.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+

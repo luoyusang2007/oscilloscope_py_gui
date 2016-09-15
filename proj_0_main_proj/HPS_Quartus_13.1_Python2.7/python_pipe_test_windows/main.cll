@@ -1,0 +1,31 @@
+#include "string"
+using namespace std;
+int i = 0;
+//int main(){
+//    while(1){
+//
+//        while(getch()!='1');
+//        while (i<1024){
+//           // putchar(i);
+//            printf("%d\n",i);
+//            i++;
+//        }
+//    }
+//    return 0;
+//}
+
+
+
+
+
+
+int main(){
+    char x;
+    while(1){
+
+       cin >> x
+
+            printf("%d\n",i);
+    }
+    return 0;
+}

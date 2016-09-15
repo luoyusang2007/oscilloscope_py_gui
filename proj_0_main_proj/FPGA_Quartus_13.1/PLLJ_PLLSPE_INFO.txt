@@ -1,0 +1,30 @@
+PLL_Name	DE1_SoC_QSYS:u0|DE1_SoC_QSYS_pll_sys:pll_sys|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL
+PLLJITTER	19
+PLLSPEmax	50
+PLLSPEmin	-50
+
+PLL_Name	DE1_SoC_QSYS:u0|DE1_SoC_QSYS_pll_sys:pll_sys|altera_pll:altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	DE1_SoC_QSYS:u0|DE1_SoC_QSYS_pll_sys:pll_sys|altera_pll:altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	DE1_SoC_QSYS:u0|DE1_SoC_QSYS_pll_sys:pll_sys|altera_pll:altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
+PLL_Name	pll_adc:comb_294|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~FRACTIONAL_PLL
+PLLJITTER	22
+PLLSPEmax	50
+PLLSPEmin	-50
+
+PLL_Name	pll_adc:comb_294|pll_adc_0002:pll_adc_inst|altera_pll:altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER
+PLLJITTER	NA
+PLLSPEmax	NA
+PLLSPEmin	NA
+
